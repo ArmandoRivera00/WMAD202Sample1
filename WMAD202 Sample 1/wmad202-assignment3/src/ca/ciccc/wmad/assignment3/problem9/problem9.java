@@ -29,7 +29,7 @@ public class problem9 {
         System.out.println("Please enter numbers: ");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
-        while (number < 100) {   // Stops when enter greater than 100 and makes list
+        while (number < 100) {
             list.add(number);
             number = input.nextInt();
         }

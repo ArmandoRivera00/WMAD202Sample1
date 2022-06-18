@@ -11,7 +11,7 @@ public class problem8 {
         while(!(topLimit <100) && !(topLimit >40)){
             topLimit = input.nextInt();
         }
-        System.out.println("Please enter a divide number : ");
+        System.out.println("Please enter a divisable number : ");
         int number = input.nextInt();
 
         ArrayList<Integer> numbers = divisibleList(topLimit,number);
